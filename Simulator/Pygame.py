@@ -5,7 +5,7 @@ import os
 # CONFIG
 # ----------------------
 TILE_SIZE = 24
-MAPS_DIR = "txt_maps"
+MAPS_DIR = "Rankeds_maps/txt_maps"
 SCREEN_BG = (20, 20, 20)
 
 TILE_COLORS = {
@@ -21,10 +21,15 @@ TILE_COLORS = {
     "W":(0, 156, 147),
     "T":(245, 174, 0),
     "V":(0, 156, 147),
-    "B":(255, 0, 235),
+    "B":(196, 150, 0),
     "N":(245, 174, 0),
     "J":(0,0,0),
     "a":(245, 174, 0),
+    "7":(255, 87, 87),
+    "6":(125, 196, 254),
+    "2":(255, 87, 87),
+    "1":(125, 196, 254),
+    "8":(0,0,0),#objectif dependant du mode HZ/H only car les autres modes l'objectif est un objet remassable
     "x":(102, 102, 102),
     "z":(166, 0, 0),
     "w":(0, 255, 16),
