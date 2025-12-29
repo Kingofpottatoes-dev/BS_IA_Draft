@@ -1,11 +1,12 @@
 import pygame
+import pygame
 import os
 
 # ----------------------
 # CONFIG
 # ----------------------
 TILE_SIZE = 24
-MAPS_DIR = "Rankeds_maps/txt_maps"
+MAPS_DIR = "BS_IA_Draft/Rankeds_maps/txt_maps"
 SCREEN_BG = (20, 20, 20)
 
 TILE_COLORS = {
