@@ -4,7 +4,7 @@ import os
 sys.path.append(os.path.join(os.path.dirname(__file__), "clean"))
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(__file__)), "Class"))
 
-from Class_Entity_Stats import Entity
+from Class.Class_Entity_Stats import Entity_stats
 # ----------------------
 # CONFIG
 # ----------------------
