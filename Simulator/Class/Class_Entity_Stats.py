@@ -62,6 +62,7 @@ class Entity_stats:
         UniquePropertyValue1,
         UniquePropertyValue2,
         BuddyCharacter,
+        Texture
     ):
         self.Name = Name
         self.ItemName = ItemName
@@ -123,6 +124,6 @@ class Entity_stats:
         self.UniquePropertyValue1 = UniquePropertyValue1
         self.UniquePropertyValue2 = UniquePropertyValue2
         self.BuddyCharacter = BuddyCharacter
-
+        self.Texture = Texture
     def __repr__(self):
         return f"<Brawler {self.ItemName} | HP={self.Hitpoints} | Speed={self.Speed}>"
