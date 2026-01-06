@@ -88,5 +88,4 @@ script_dir = os.path.dirname(os.path.abspath(__file__))  # dossier où est le sc
 csv_path = os.path.join(script_dir, "..", "clean", "characters_clean.csv")
 entities = load_entity_stats(csv_path, False)
 for i in range(len(entities)):
-    if entities[i].Type == "Hero":
         print(entities[i].Name,i)
