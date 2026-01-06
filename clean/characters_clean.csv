@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Name,ItemName,WeaponSkill,UltimateSkill,OverchargedUltimateSkill,Pet,AltPet,Speed,Hitpoints,Traits,Components,HealthPromilleLostPerSecond,HealPercentChange,LifeTimeTicks,SkipDeploy,MeleeAutoAttackSplashDamage,DelayTicksFirstAttack,AutoAttackSpeedMs,AutoAttackDamage,AutoAttackBulletsPerShot,AutoAttackMode,AutoAttackTicksBetweenBurstShots,AutoAttackProjectileSpread,AutoAttackProjectile,OverchargedAutoAttackProjectile,AutoAttackRange,RegeneratePerSecond,LowPriorityTarget,UltiUses,UltiChargeInitial,UltiChargeMul,UltiChargeUltiMul,OverchargeChargeMul,OverchargePassiveChargeMul,OverchargeChargeActiveMul,OverchargeDamagePercent,OverchargeSpeedPercent,OverchargeShieldPercent,Type,IsNeutral,CarryableType,TwoWeaponAttackEffectOffset,CollisionRadius,ProjectileStartZ,AttackingWeaponScale,CanWalkOverWater,ChargeUltiAutomatically,ChargeUltiFromDamage,ChargeUltiFromHealing,ShouldEncodePetStatus,SecondaryPet,IsExternalPet,ExtraMinions,PetAutoSpawnDelay,PowerLevelsType,PowerLevelsSpeedBuff,UniqueProperty,UniquePropertyValue1,UniquePropertyValue2,BuddyCharacter,Texture
 string,string,string,string,string,string,string,int,int,string,string,int,int,int,boolean,boolean,int,int,int,int,string,int,int,string,string,int,int,boolean,int,int,int,int,int,int,int,int,int,int,string,boolean,string,int,int,int,int,boolean,int,int,int,boolean,boolean,boolean,int,int,int,int,int,int,int,int,string
 ShotgunGirl,shelly,ShotgunGirlWeapon,ShotgunGirlUlti,,,,770,3900,,,,,,,,,,,,,,,,,12,,,,,134,60,30,,0,5,20,5,Hero,,,,120,450,200,,,,,,,,,,,,,4,3,2,shelly_portrait
@@ -633,4 +633,3 @@ a3f1b93c5e6cd028657f9cccf8a2808657ba4bc1,bull,BullDudeWeapon,BullDudeUlti,,,,770
 2b34a91eecda48b796b0fdd78163267bc7076352,bull,BullDudeWeapon,BullDudeUlti,,,,770,5300,,,,,,,,,,,,,,,,,12,,,,,100,150,35,,0,5,20,5,Hero,,,,145,450,130,,,240,,,,,,,,,,3,4,2
 MegaBossTrickshotBrawlentines2,,,,,,,720,50000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mega_Boss,,,,230,500,120,,,,,,,,,,,,,,,
 MegaBossTrickshotBrawlentines3,,,,,,,850,100000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mega_Boss,,,,280,500,120,,,,,,,,,,,,,,,
->>>>>>> 0156ea1d5871a8c09ebd327f7d6cce071733c12f
