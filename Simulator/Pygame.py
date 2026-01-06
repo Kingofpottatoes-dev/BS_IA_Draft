@@ -1,11 +1,15 @@
-import pygame
+import sys
 import os
+import pygame
+sys.path.append(os.path.join(os.path.dirname(__file__), "clean"))
+sys.path.append(os.path.join(os.path.dirname(os.path.dirname(__file__)), "Class"))
 
+from Class_Entity_Stats import Entity
 # ----------------------
 # CONFIG
 # ----------------------
 TILE_SIZE = 24
-MAPS_DIR = "Rankeds_maps/txt_maps"
+MAPS_DIR = os.path.join(os.path.dirname(__file__), "Rankeds_maps", "txt_maps")
 SCREEN_BG = (20, 20, 20)
 
 TILE_COLORS = {

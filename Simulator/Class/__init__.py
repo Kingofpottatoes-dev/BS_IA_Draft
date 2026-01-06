@@ -1,0 +1,1 @@
+"""`Class` package for entity and brawler classes."""
