@@ -1,3 +1,4 @@
+
 class Entity_stats:
     def __init__(
         self,
