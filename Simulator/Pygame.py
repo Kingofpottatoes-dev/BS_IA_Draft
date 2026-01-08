@@ -5,6 +5,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "clean"))
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(__file__)), "Class"))
 
 from Class.Class_Entity_Stats import Entity_stats
+from Tiles_Color import TILE_COLORS
 # ----------------------
 # CONFIG
 # ----------------------
@@ -12,37 +13,6 @@ TILE_SIZE = 24
 MAPS_DIR = os.path.join(os.path.dirname(__file__), "Rankeds_maps", "txt_maps")
 MAPS_DIR = "BS_IA_Draft/Rankeds_maps/txt_maps"
 SCREEN_BG = (20, 20, 20)
-
-TILE_COLORS = {
-    ".":(255, 255, 255),
-    "M":(245, 174, 0),
-    "X":(245, 174, 0),
-    "Y":(245, 174, 0),
-    "C":(245, 174, 0),
-    "D":(255, 0, 235),
-    "I":(196, 196, 196),
-    "F":(2, 161, 0),
-    "R":(2, 161, 0),
-    "W":(0, 156, 147),
-    "T":(245, 174, 0),
-    "V":(0, 156, 147),
-    "B":(196, 150, 0),
-    "N":(245, 174, 0),
-    "J":(0,0,0),
-    "a":(245, 174, 0),
-    "7":(255, 87, 87),
-    "6":(125, 196, 254),
-    "2":(255, 87, 87),
-    "1":(125, 196, 254),
-    "8":(0,0,0),#objectif dependant du mode HZ/H only car les autres modes l'objectif est un objet remassable
-    "x":(102, 102, 102),
-    "z":(166, 0, 0),
-    "w":(0, 255, 16),
-    "v":(102, 102, 102),
-
-
-
-}
 # ----------------------
 # CHARGER LES MAPS
 # ----------------------
