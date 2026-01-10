@@ -35,26 +35,18 @@ class Tile:
         # Dynamique
         self.respawn_seconds = respawn_seconds
         self.restore_after_dynamic_overlap = restore_after_dynamic_overlap
-        self.lifetime = lifetime  # en ms ou sec selon ton choix
+        self.lifetime = lifetime  # en ticks 
 
-        # Rendu
-        self.texture = texture# chemin ou surface pygame
+        # affichage
+        self.texture = texture #couleur
 
-        # État interne
+        # État
         self.destroyed = False
-
-    # ----------------------
-    # Méthodes gameplay
-    # ----------------------
-
-
-    # ----------------------
-    # Debug / affichage
-    # ----------------------
-
     def __repr__(self):
         return (
             f"<Tile {self.tile_code} "
             f"walkable={self.is_walkable()} "
             f"lifetime={self.lifetime}>"
         )
+    
+    "Name","TileCode","BlocksMovement","BlocksProjectiles","IsDestructible","IsDestructibleNormalWeapon","IsDestructibleOvertime","HidesHero","Lifetime"
