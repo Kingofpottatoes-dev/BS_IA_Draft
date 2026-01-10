@@ -66,7 +66,7 @@ class BrawlerPlayed:
             Gadjet,#[indice du gadjet,Buffed or not]
             Gear1,#[indice du gear]
             Gear2,#[indice du gear] Gear1!=Gear2
-            Hyper,#[A l'hyper ou pas,Buffed or not]
+            Hyper,#(A l'hyper ou pas,Buffed or not)
             Ult_charge,#float 0>1
             Ult_Uses,#int
             Can_attack,#bool
