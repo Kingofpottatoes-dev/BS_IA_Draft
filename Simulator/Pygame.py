@@ -11,12 +11,12 @@ from Tiles_Color import TILE_COLORS
 # ----------------------
 TILE_SIZE = 24
 MAPS_DIR = os.path.join(os.path.dirname(__file__), "Rankeds_maps", "txt_maps")
-MAPS_DIR = "Simulator/Rankeds_maps/txt_maps"
 SCREEN_BG = (20, 20, 20)
 # ----------------------
 # CHARGER LES MAPS
 # ----------------------
 def load_maps():
+    global MAPS_DIR
     maps = []
 
     for root, _, files in os.walk(MAPS_DIR):
