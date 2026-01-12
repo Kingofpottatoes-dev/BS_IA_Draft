@@ -10,7 +10,7 @@ class BrawlerPlayed:
         ReloadSpeed,           # float (munitions / seconde)
         Muni,                  # float [0,1]
         Texture,
-        State=None,            # [(state_name, duration_ticks), ...] lst_state=[hided,fasted,slowed,stunted,poisonCrow,poisonByron,burnedAmnber,rooted,shielded,feared,charmed,muted,upsidedown,marked_RT,marked_Belle,immune,invicible,unkillable,]
+        State=None,            # [(state_name, duration_ticks), ...] lst_state=[hided,fasted,slowed,stunted,poisonCrow,poisonByron,burnedAmnber,rooted,shielded,feared,charmed,muted,upsidedown,marked_RT,marked_Belle,immune,invicible,unkillable,dmg_boosted]
         SP=None,               # (index_sp, buffed)
         Gadjet=None,           # (index_gadget, buffed)
         Gear1=None,            # index
@@ -55,7 +55,7 @@ class BrawlerPlayed:
         # Apparence
         self.Texture = Texture
 
-        def try_move(self,deplacement):
+        def try_move(self):
             if 'stun' in [state[0] for state in self.State] or 'root' in [state[0] for state in self.State]:
                 return self.coords
             else:
