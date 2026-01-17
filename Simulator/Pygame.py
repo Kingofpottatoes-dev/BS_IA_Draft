@@ -6,6 +6,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "clean"))
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(__file__)), "Class"))
 
 from Class.Class_Entity_Stats import Entity_stats
+from Class.Class_Game_State import GameState
 from Tiles_Color import TILE_COLORS
 
 # ----------------------
@@ -17,7 +18,7 @@ SCREEN_BG = (20, 20, 20)
 CONSOLE_HEIGHT = 30
 
 # ----------------------
-# CHARGER LES MAPS
+# LOAD MAPS/CREATE A GAME STATE
 # ----------------------
 def load_maps():
     global MAPS_DIR
@@ -36,6 +37,7 @@ def load_maps():
 maps = load_maps()
 
 current_map_index = 0
+current_map = maps[current_map_index]  # (name, grid)
 
 # ----------------------
 # INIT PYGAME
@@ -113,11 +115,13 @@ while running:
             else:
                 if event.key == pygame.K_RIGHT:
                     current_map_index = (current_map_index + 1) % len(maps)
-                    screen = create_screen(maps[current_map_index][1])
+                    current_map = maps[current_map_index]
+                    screen = create_screen(current_map[1])
 
                 elif event.key == pygame.K_LEFT:
                     current_map_index = (current_map_index - 1) % len(maps)
-                    screen = create_screen(maps[current_map_index][1])
+                    current_map = maps[current_map_index]
+                    screen = create_screen(current_map[1])
 
     # ----------------------
     # RENDER
