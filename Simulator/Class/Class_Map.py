@@ -2,9 +2,10 @@ from Class_tiles import Tile
 from Colision import *
 class Map:
 
-    def __init__(self, map_data, tiles):
+    def __init__(self, map_data, tiles,mode):
         self.map_data = map_data      # tableau de characteres
         self.tiles = tiles            # dict id -> Tile
+        self.mode=mode
         self.height = len(map_data)
         self.width = len(map_data[0])
 
