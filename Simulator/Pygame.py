@@ -1,7 +1,7 @@
 import sys
 import pygame
 import os
-
+from Command_effect_affichage import *
 sys.path.append(os.path.join(os.path.dirname(__file__), "clean"))
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(__file__)), "Class"))
 
@@ -58,15 +58,6 @@ clock = pygame.time.Clock()
 # ----------------------
 console_active = False
 console_input = ""
-
-def break_tile(x, y):
-    name, grid = maps[current_map_index]
-    if 0 <= y < len(grid) and 0 <= x < len(grid[y]):
-        grid[y][x] = "."  # vide
-def place_tile(x, y, tile_char):
-    name, grid = maps[current_map_index]
-    if 0 <= y < len(grid) and 0 <= x < len(grid[y]):
-        grid[y][x] = tile_char
 # ----------------------
 # COMMAND LST
 # ----------------------
